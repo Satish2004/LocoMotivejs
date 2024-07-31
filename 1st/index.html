@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" class="css" />
+  </head>
+
+  <body>
+    <div id="main" data-scroll-container>
+      <!-- if i use locomotive then i create a parent container and does not provide the any height and width of the parent value -->
+      <div id="page1" data-scroll  data-scroll-speed="-6" ></div>
+      <div id="page2" data-scroll data-scroll-speed="-3">
+        <img
+          data-scroll
+          data-scroll-speed="-2"
+          data-scroll-direction="horizontal"
+          src="https://images.unsplash.com/photo-1721332150382-d4114ee27eff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
+          alt=""
+        />
+      </div>
+      <div id="page3" data-scroll data-scroll-speed="3" ></div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
